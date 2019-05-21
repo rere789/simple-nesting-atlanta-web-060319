@@ -131,6 +131,6 @@ def adding_to_dennis
      }
      
      my_hash = programmer_hash[:dennis_ritchie][:languages]
-      my_hash << ["Assembly"]
+      my_hash.merge ["Assembly"]
       my_hash
 end
